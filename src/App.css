@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header1{
+    display: flex;
+    background-color: hsl(298, 72%, 92%);
+    font-family:Montserrat,'Open Sans',sans-serif;
+    font-size: 15px;
+    background-color: rgba(255,244,240);
+    font-weight: 700;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header11{
+    display: flex;
+}
+.heart-icon{
+    height: 20px;
+    width: 20px;
+}
+
+.sign-in svg{
+    height: 20px;
+    width: 20px;
+    float: right;
+}
+.logo1{
+    font-family: cursive;
+    color: rgba(0,0,0,var(--tw-text-opacity));
+    font-size: 20px;
+    color: #f16059;
+    text-decoration: none;
+    font-weight: 700;
+}
+.logo2{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    box-sizing: border-box;
+    background-color: #f16059;
+    padding: 15px;
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid #d7d7d7;
+    border-top: 1px solid #d7d7d7;
+    position: relative;
+    width: 100%;
+    z-index: 99;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.navigation ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 15px;
+    gap: 50px;
+}
+.mainclass{
+    padding: 100px;
+    --tw-bg-opacity: 1;
+    background-color: rgba(255,244,240,var(--tw-bg-opacity));
+    border-width: 0;
+    border-style: solid;
+    border-color: currentColor;
+    overflow: hidden;
+}
+.main1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.main2 p{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.main3{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.three ul{
+    list-style: none;
+}
+.four{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.five ul{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+@media all{
+    
+}
